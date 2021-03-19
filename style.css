@@ -1,0 +1,38 @@
+#photo{
+    width: 800px;
+    height: 500px;
+}
+#photo-title{
+    position: absolute;
+    bottom: 450px;
+    left: 600px;
+    color: white;
+}
+#egesz{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   max-width: 1000px;
+   margin: 0 auto 0 auto;
+}
+#balnyil{
+    width: 100px;
+    height: 200px;
+    background-image: url(images/arrow.svg);
+    background-size: 100% 100%;
+}
+#jobbnyil{
+    width: 100px;
+    height: 200px;
+    background-image: url(images/arrow.svg);
+    background-size: 100% 100%;
+    transform: rotate(0.5turn);
+}
+#kepek{
+    text-align: center;
+}
+.kep{
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+}
